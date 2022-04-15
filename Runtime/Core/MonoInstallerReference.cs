@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Project.Common.ListItems
+namespace Installers.Core
 {
     public class MonoInstallerReference : MonoInstaller
     {
