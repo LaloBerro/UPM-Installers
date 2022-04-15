@@ -1,8 +1,8 @@
 {
-  "name": "com..",
+  "name": "com.tgl.installers",
   "version": "1.0.0",
-  "displayName": "",
-  "description": "",
+  "displayName": "TGL - Installers",
+  "description": "Installers for everyone",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "documentationUrl": "",
@@ -11,7 +11,7 @@
   "keywords": [
   ],
   "author": {
-    "name": "",
+    "name": "TGL",
     "email": "",
     "url": ""
   },
