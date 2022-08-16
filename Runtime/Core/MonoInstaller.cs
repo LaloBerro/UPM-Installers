@@ -11,6 +11,9 @@ namespace Installers.Core
         public override void Install()
         {
             _data = GetData();
+
+            if (ReferenceEquals(_data, null))
+                throw new System.Exception($"Installer error: The MonoInstaller ${gameObject.name} is null");
         }
 
         protected abstract DataType GetData();
