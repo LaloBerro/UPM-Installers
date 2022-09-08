@@ -1,6 +1,6 @@
 {
   "name": "com.tgl.installers",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "displayName": "TGL - Installers",
   "description": "Installers for everyone",
   "unity": "2020.3",

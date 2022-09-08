@@ -1,14 +1,13 @@
-using UnityEngine;
-
 namespace Installers.Core
 {
-    public class Instalator : MonoInstaller
+    public class ChildrenInstalator : MonoInstaller
     {
-        [Header("References")]
-        [SerializeField] private MonoInstaller[] _monoInstallers;
+        private MonoInstaller[] _monoInstallers;
 
         public override void Install()
         {
+            _monoInstallers = GetComponentsInChildren<MonoInstaller>();
+
             foreach (var monoInstaller in _monoInstallers)
             {
                 if (null == monoInstaller)

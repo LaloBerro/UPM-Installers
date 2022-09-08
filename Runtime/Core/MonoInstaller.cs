@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Installers.Core
@@ -17,6 +18,14 @@ namespace Installers.Core
         }
 
         protected abstract DataType GetData();
+
+        private void OnDestroy()
+        {
+            if (!(_data is IDisposable))
+                return;
+
+            (_data as IDisposable).Dispose();
+        }
     }
 
     public abstract class MonoInstaller : MonoBehaviour
