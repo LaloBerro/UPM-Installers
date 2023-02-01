@@ -1,7 +1,7 @@
 {
-  "name": "com.tgl.installers",
+  "name": "com.lalo.installers",
   "version": "1.4.0",
-  "displayName": "TGL - Installers",
+  "displayName": "Installers",
   "description": "Installers for everyone",
   "unity": "2020.3",
   "unityRelease": "0b5",
@@ -10,7 +10,7 @@
   "licensesUrl": "",
   "keywords": [],
   "author": {
-    "name": "TGL",
+    "name": "Lalo",
     "email": "",
     "url": ""
   },
